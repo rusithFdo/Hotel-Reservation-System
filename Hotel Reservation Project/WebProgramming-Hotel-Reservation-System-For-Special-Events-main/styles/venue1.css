@@ -1,0 +1,67 @@
+.lineFirst, .lineSecond{
+    margin: auto;
+    padding: 30px;
+    display: flex;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+    justify-content: center;
+}
+.line-items{
+    width: 30%;
+    height:40%;
+    padding: 10px 20px;
+    margin: auto;
+}
+.square{
+    width: 250px;
+    height: 250px;
+    border-radius: 5%;
+    position: absolute;
+    align-content: center;
+    background-color: #ffffff;
+    opacity: 60%;
+}
+#square1{
+    left: 10%;
+    top: 47%;
+}
+#square2{
+    left: 43%;
+    top: 47%;
+}
+#square3{
+    left: 73%;
+    top: 47%;
+}
+.p1{
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 5px;
+    margin-top: 70px;
+    letter-spacing: 2px;
+}
+.pp{
+    position: relative;
+    height: 200px;
+    width: 400px;
+    display: inline-block;
+    text-align: center;
+    font-family: Calibri;
+    padding: 20px;
+    margin: auto;
+    box-sizing: border-box;
+    font-size: 20px;
+
+}
+#p1{
+    left: 2%;
+}
+#p2{
+    left: 8%;
+}
+#p3{
+    right: -12%;
+}

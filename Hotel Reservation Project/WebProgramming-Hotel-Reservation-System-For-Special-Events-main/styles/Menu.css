@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+}
+.lineFirst, .lineSecond{
+    margin: auto;
+    padding: 30px;
+    display: flex;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+    justify-content: center;
+	padding: 10px;
+
+}
+.line-items{
+	width: 30%;
+	height:40%;
+	padding: 10px 20px;
+	margin: auto;
+	padding: 10px;
+
+}
+.addservice{
+	height: 40%;
+	padding: 15px;
+	margin: 5px;
+	background-color: #daa520;
+	color: #ffffff;
+	font-family: sans-serif;
+	padding: 30px;
+
+}
+ .other-charges{
+ 	/*content: '';
+ 	clear: both;
+ 	display: table;*/
+ 	height: 300px;
+ 	width: 55%;
+	padding: 15px;
+	margin: 5px;
+	padding-left: 45px;
+	background-color: #daa520;
+	color: #ffffff;
+	font-family: sans-serif;
+}
+.lineThird, .lineFourth{
+	display: inline-block;
+}
+.head{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 80px;
+	text-align: center;
+}
+.other, .add{
+	text-align: center;
+	padding: 5px;
+	margin: 5px;
+}
+.img{
+	padding: 25px 70px;
+	margin: 10px;
+}
+.order{
+	text-align: justify;
+}
+.square{
+	width: 250px;
+	height: 250px;
+	border-radius: 5%;
+	position: absolute;
+	align-content: center;
+	background-color: #ffffff;
+	opacity: 60%;
+}
+#square1{
+	left: 8%;
+	top: 45%;
+}
+#square2{
+	left: 75%;
+	top: 45%;
+}
+#square3{
+	left: 8%;
+	top: 105%;
+}
+#square4{
+	left: 42%;
+	top: 105%;
+}
+#square5{
+	left: 75%;
+	top: 105%;
+}
+.p1{
+	font-size: 40px;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: sans-serif;
+	font-weight: bold;
+	padding: 5px;
+	margin-top: 70px;
+	letter-spacing: 2px;
+}
+.menuBtn{
+	position: relative;
+	left: 28%;
+	padding: 10px;
+	border-radius: 15px;
+	background-color: black;
+	color: white;
+	cursor: pointer;
+	font-weight: bold;
+	letter-spacing: 1px;
+}

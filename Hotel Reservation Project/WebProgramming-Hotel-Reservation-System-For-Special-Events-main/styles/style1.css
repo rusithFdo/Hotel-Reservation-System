@@ -1,0 +1,195 @@
+.dropdown{
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+}
+.user{
+	text-align: right;
+}
+nav{
+	height: 60px;
+	background: #ffffff;
+	box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+}
+nav ul{
+	margin: 0;
+	padding: 0;
+}
+nav ul li{
+	background: #ffffff;
+	position: relative;
+	list-style: none;
+	display: inline-block;
+}
+nav ul li a{
+	display: block;
+	padding: 0 20px;
+	color: black;
+	text-decoration: none;
+	line-height: 60px;
+	font-size: 15px;
+	font-weight: 3px;
+}
+nav ul li a:hover{
+	color: orange;
+	box-sizing: border-box;
+
+}
+nav ul ul{
+	position: absolute;
+	top: 60px;
+	display: none;
+}
+nav ul li:hover > ul{
+	display: block;
+}
+nav ul ul li{
+	width: 200px;
+	float: none;
+	text-align: left;
+	display: list-item;
+	position: relative;
+}
+/*dot indicater*/
+.dot{
+	width: 15px;
+	height: 15px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+.pp{
+	position: relative;
+	height: 200px;
+	width: 400px;
+	display: inline-block;
+	text-align: center;
+	font-family: Calibri;
+	padding: 20px;
+	margin: auto;
+	box-sizing: border-box;
+	font-size: 20px;
+
+}
+#p1{
+	left: 2%;
+}
+#p2{
+	left: 8%;
+}
+#p3{
+	right: -12%;
+}
+
+.menuBtn{
+	position: relative;
+	padding: 10px;
+	border-radius: 15px;
+	background-color: black;
+	color: white;
+	cursor: pointer;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+h1{
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 35px;
+}
+.line{
+	width: 40px;
+	height: 2px;
+	text-align: center;
+}
+
+#fpara{
+	position: absolute;
+	top: 280%;
+	text-align: left;
+	display: block;
+	color: white;
+	font-size: 25px;
+	padding-right: 60%;
+	padding-left: 50px;
+	margin: 5px;
+}
+h3{
+	position: absolute;
+	top: 265%;
+	padding-left: 200px;
+	margin: 10px;
+	color: white;
+	font-size: 40px;
+}
+/*Google Map*/
+.mapouter{
+	text-align:right;
+	height:500px;
+	width:100%;
+}
+.gmap_canvas{
+	overflow:hidden;
+	background:none;
+	height:500px;
+	width: 100%;
+}
+.checkbutton{
+	color:  white;
+	font-size: 30px;
+	margin-right: 40px;
+	cursor: pointer;
+	float: right;
+	line-height: 75px;
+	display: none;
+}
+#check{
+	display: none;
+}
+@media (max-width:  858px){
+	.checkbutton{
+		display: block;
+		color: black;
+	}
+	ul{
+		position: fixed;
+		width: 30%;
+		height: 600px;
+		background: black;
+		text-align: center;
+		top: 70px;
+		left: -100%;
+		transition: all .5s;
+	}
+	nav ul li{
+		position: relative;
+		display: block;
+		margin: 30px 0;
+		line-height: 30px;
+		background: black;
+	}
+	nav ul li a{
+		color: white;
+		font-size: 20px;
+	}
+	#check:checked ~ ul{
+		left: 0;
+	}
+	a:hover, a:active{
+		text-align: center;
+		background: none;
+		color: #0082e6;
+		padding-right: 8px;
+	}
+	nav ul li a:hover{
+	background: black;
+
+}
+.para{
+	text-align: center;
+}
+.body-content, .user{
+	display: none;
+}
+}
